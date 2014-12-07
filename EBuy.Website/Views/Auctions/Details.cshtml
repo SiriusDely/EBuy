@@ -1,0 +1,39 @@
+﻿@model EBuy.Website.Models.Auction
+
+@{
+    ViewBag.Title = "Details";
+}
+
+<section class="details">
+    <header>
+        <h2>Details</h2>
+    </header>
+    <p>
+        <span class="label">Id:</span>
+        <span>@Model.Id</span>
+    </p>
+    <p>
+        <span class="label">Title:</span>
+        <span>@Model.Title</span>
+    </p>
+    <p>
+        <span class="label">Description:</span>
+        <span>@Model.Description</span>
+    </p>
+    <p>
+        <span class="label">StartPrice:</span>
+        <span>@Model.StartPrice</span>
+    </p>
+    <p>
+        <span class="label">CurrentPrice:</span>
+        <span>@Model.CurrentPrice</span>
+</p>
+<p>
+    <span class="label">StartTime:</span>
+    <span>@Model.StartTime</span>
+</p>
+<p>
+    <span class="label">EndTime:</span>
+    <span>@Model.EndTime</span>
+</p>
+</section>
